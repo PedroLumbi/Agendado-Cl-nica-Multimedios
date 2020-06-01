@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="CSS/css_AgendadoCita.css">
+	<script src="JavaScript/js_AgendaCita.js"></script>
+	<!-- Calendario -->
+
+<head>
+	<title>Agendado Clínica Multimedios</title>
+</head>
+
+<body>
+	<h1 class="titulo" id="tituloAgendadoCita">Agendado Cita</h1>
+	<h3 class="subTitulo" id="subTituloDr">Dr.Carlos Cubero</h3>
+
+	<form action="#Cita Agregada">
+		<label for="lb_Fecha">Fecha</label><br>
+		<form action="">
+			<input type="date" id="fecha" name="fecha">
+		</form>
+		<br>
+		<label for="lb_Hora">Hora</label><br>
+		<form action="">
+			<input type="time" id="hora" name="hora">
+		</form>
+		<br><br>
+		<textarea name="txtAreaComentario" rows="10" cols="30">Algún comentario...</textarea>
+		<br><br>
+		<input type="submit" id="btn_Confirmar" value="Confirmar">
+	</form>
+
+</body>
+
+</html>
